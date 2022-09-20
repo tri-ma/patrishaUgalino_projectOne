@@ -302,7 +302,7 @@ nav a:visited {
 
 .header2,
 .header3 {
-  padding-bottom: 70px;
+  padding-bottom: 100px;
 }
 
 .indexHeader {
@@ -339,10 +339,9 @@ footer {
   background-color: #86E0F9;
   padding: 10px;
 }
-footer h2,
-footer h3,
-footer h4 {
+footer .footer {
   font-family: "Barlow";
+  text-transform: none;
   font-size: 20px;
   text-align: center;
   color: #0C1423;
@@ -542,4 +541,194 @@ footer h4 {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.contactMain {
+  background-color: #0C1423;
+}
+.contactMain .contactFlex1 {
+  display: flex;
+  flex-direction: row;
+}
+.contactMain .contactFlex1 aside {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 100px 10px 100px 0;
+}
+.contactMain .contactFlex1 aside .contactFlex2 {
+  display: flex;
+  flex-direction: row;
+}
+.contactMain .contactFlex1 aside .contactFlex2 i {
+  color: #FFFFFF;
+  margin-right: 20px;
+  text-align: left;
+}
+.contactMain .contactFlex1 aside .contactFlex3 {
+  display: flex;
+  flex-direction: column;
+}
+.contactMain .contactFlex1 aside .contactFlex3 .email {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.contactMain .contactFlex1 aside .contactFlex3 .contactNum,
+.contactMain .contactFlex1 aside .contactFlex3 .address {
+  font-size: 18px;
+}
+
+.form1 {
+  background-color: #0F614E;
+  box-shadow: -30px 30px #86E0F9;
+  width: 70%;
+  padding: 70px 40px;
+  position: relative;
+  bottom: 150px;
+  left: 100px;
+}
+.form1 label {
+  visibility: hidden;
+  width: 1px;
+}
+.form1 input {
+  width: 37.5%;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #86E0F9;
+}
+.form1 textarea {
+  resize: none;
+  width: 90%;
+  border: 1px solid #86E0F9;
+  margin: 0 40px;
+}
+.form1 button {
+  background-color: #0C1423;
+  color: #FFFFFF;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.form1 input,
+.form1 textarea {
+  background-color: #0F614E;
+}
+
+textarea {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: none;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #FFFFFF;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #FFFFFF;
+}
+
+.blogMain {
+  background-color: #0C1423;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+.blogMain .blogImg1 {
+  box-shadow: -30px 30px #86E0F9;
+}
+.blogMain .blogFlex1 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.blogMain .blogFlex1 section {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #86E0F9;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-left-color: #86E0F9;
+  padding: 80px;
+}
+.blogMain .blogFlex1 .blogTitle {
+  margin-bottom: 20px;
+}
+.blogMain .blogFlex1 .blogTitle h2 {
+  color: #FFFFFF;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+.blogMain article h2 {
+  color: #FFFFFF;
+  font-size: 32px;
+}
+.blogMain article h2 li {
+  margin: 20px;
+}
+.blogMain article h2 li img {
+  width: 10%;
+}
+.blogMain article h2 li .textComment {
+  width: 50%;
+  text-align: center;
+}
+.blogMain article h2 li p {
+  padding: 20px;
+}
+
+.textComment p {
+  width: 80%;
+}
+
+.blogPost {
+  position: relative;
+  bottom: 150px;
+}
+
+.form2 {
+  background-color: #0C1423;
+}
+.form2 label {
+  visibility: hidden;
+  width: 1px;
+}
+.form2 input {
+  width: 35%;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #86E0F9;
+  margin: 40px 0;
+}
+.form2 textarea {
+  resize: none;
+  width: 90%;
+  border: 1px solid #86E0F9;
+}
+.form2 button {
+  background-color: #0F614E;
+  color: #FFFFFF;
+  width: 90%;
+  padding: 10px;
+  border: none;
+  text-transform: uppercase;
+  margin: 40px auto;
+  font-size: 20px;
+}
+
+.form2 input,
+.form2 textarea {
+  background-color: #0C1423;
 }/*# sourceMappingURL=style.css.map */

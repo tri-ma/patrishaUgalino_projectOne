@@ -194,9 +194,194 @@
 // INDEX ENDS
 
 // CONTACT STARTS
+.contactMain {
+    background-color: $primaryColor;
+    .contactFlex1 {
+        display: flex;
+        flex-direction: row;
+        aside {
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            padding: 100px 10px 100px 0;
+            .contactFlex2 {
+                display: flex;
+                flex-direction: row;
+                i {
+                    color: $quartenaryColor;
+                    margin-right: 20px;
+                    text-align: left;
+                }
+            }
+            .contactFlex3 {
+                display: flex;
+                flex-direction: column;
+                .email {
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    margin-bottom: 25px;
+                }
+                .contactNum,
+                .address {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
 
+.form1 {
+    background-color: $secondaryColor;
+    box-shadow: -30px 30px $tertiaryColor;
+    width: 70%;
+    padding: 70px 40px;
+    position: relative;
+    bottom: 150px;
+    left: 100px;
+    label {
+        visibility: hidden;
+        width: 1px;
+    }
+    input {
+        width: 37.5%;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: $tertiaryColor;
+    }
+    textarea {
+        resize: none;
+        width: 90%;
+        border: 1px solid $tertiaryColor;
+        margin: 0 40px;
+    }
+    button {
+        background-color: $primaryColor;
+        color: $quartenaryColor;
+        width: 100%;
+        padding: 10px;
+        border: none;
+        text-transform: uppercase;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+}
+
+.form1 input,
+.form1 textarea {
+    background-color: $secondaryColor;
+}
+
+textarea {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: none;
+    &::placeholder {
+        color: $quartenaryColor;
+    }
+}
 // CONTACT ENDS
 
 // BLOG STARTS
+.blogMain {
+    background-color: $primaryColor;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    .blogImg1 {
+        box-shadow: -30px 30px $tertiaryColor;
+    }
+    .blogFlex1 {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        section {
+            border-bottom-width: 2px;
+            border-bottom-style: solid;
+            border-bottom-color: $tertiaryColor;
+            border-left-width: 2px;
+            border-left-style: solid;
+            border-left-color: $tertiaryColor;
+            padding: 80px;
+            }
+        .blogTitle {
+            margin-bottom: 20px;
+            h2 {
+            color: $quartenaryColor;
+            font-size: 32px;
+            letter-spacing: 1px;
+            }
+        }
+    }
+    article {
+        h2 {
+            color: $quartenaryColor;
+            font-size: 32px;
+            li {
+                margin: 20px;
+                img {
+                    width: 10%;
+                }
+                .textComment {
+                    width: 50%;
+                    text-align: center;
+                }
+                p {
+                    padding: 20px;
+                }
+            }
+        }
+    }
+}
+
+.textComment p {
+    width: 80%;
+}
+.blogPost {
+    position: relative;
+    bottom: 150px;
+}
+
+.form2 {
+    background-color: $primaryColor;
+
+    label {
+        visibility: hidden;
+        width: 1px;
+    }
+
+    input {
+        width: 35%;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: $tertiaryColor;
+        margin: 40px 0;
+    }
+
+    textarea {
+        resize: none;
+        width: 90%;
+        border: 1px solid $tertiaryColor;
+    }
+
+    button {
+        background-color: $secondaryColor;
+        color: $quartenaryColor;
+        width: 90%;
+        padding: 10px;
+        border: none;
+        text-transform: uppercase;
+        margin: 40px auto;
+        font-size: 20px;
+    }
+}
+
+.form2 input,
+.form2 textarea {
+    background-color: $primaryColor;
+}
 
 // BLOG ENDS

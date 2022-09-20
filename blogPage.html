@@ -33,50 +33,58 @@
         <h1>blog</h1>
     </header>
 
-    <main>
-        <img src="./under-the-sea-assets/blog-post-image.jpg" alt="Different species of wild fish in an aquarium swimming around coral.">
+    <main class="blogMain">
+        <div class="blogFlex1 wrapper">
+            <div class="blogPost">
+                <img class="blogImg1" src="./under-the-sea-assets/blog-post-image.jpg" alt="Different species of wild fish in an aquarium swimming around coral.">
 
-        <section>
-            <h2>discovering new species</h2>
-            <p>Monday May 4th, 2019 by Dieula</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eum? Culpa inventore dolore neque molestiae sit ducimus laborum esse ullam officia hic voluptatem maiores voluptatibus reprehenderit nulla rem illum aut numquam at odit ea velit et, minima a. Placeat alias nisi et expedita. Possimus, iure. Doloremque reprehenderit sapiente tempore culpa impedit doloribus? Necessitatibus quo in aperiam ratione illum tempora fugiat rerum quia! Quaerat mollitia, incidunt, corporis aut in ducimus, doloremque veniam distinctio rem vel iure. Rerum, laborum adipisci, pariatur aliquam amet vel libero tenetur incidunt quibusdam at inventore neque asperiores porro consectetur provident modi? Aliquid a sint nisi cumque repudiandae ducimus consequatur sapiente ratione temporibus quas voluptates, alias officiis fugiat consectetur nihil in harum similique sequi ea corporis rem, nostrum ullam, consequuntur maiores! Porro beatae libero nihil. Obcaecati rem sunt quos nobis similique, aperiam ipsam libero saepe cum animi quis odit ullam magnam quidem cupiditate esse sapiente consequatur iure pariatur!</p>
-        </section>
+                <section>
+                    <div class="blogTitle">
+                        <h2>discovering new species</h2>
+                        <p>Monday May 4th, 2019 by Dieula</p>
+                    </div>
 
-        <article>
-            <h2>Comments</h2>
-            <ul>
-                <li>
-                    <img src="./under-the-sea-assets/comment-1.jpg" alt="Photo of user commenting under Discovery section.">
-                    <p>Tuesday October 9th, 2019 by Jeremy</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In suscipit cupiditate vero soluta, ratione ut dolorum dolore nobis inventore illum aperiam unde aliquam, repellendus nemo?</p>
-                </li>
-                <li>
-                    <img src="./under-the-sea-assets/comment-2.jpg" alt="Photo of user commenting under Discovery section.">
-                    <p>Wednesday October 10th, 2019 by Julia</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, pariatur commodi sed placeat deserunt nam voluptates amet! Ipsa, sapiente dolorem debitis libero voluptates labore similique.</p>
-                </li>
-            </ul>
-        </article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eum? Culpa inventore dolore neque molestiae sit ducimus laborum esse ullam officia hic voluptatem maiores voluptatibus reprehenderit nulla rem illum aut numquam at odit ea velit et, minima a. Placeat alias nisi et expedita. Possimus, iure. Doloremque reprehenderit sapiente tempore culpa impedit doloribus? Necessitatibus quo in aperiam ratione illum tempora fugiat rerum quia! Quaerat mollitia, incidunt, corporis aut in ducimus, doloremque veniam distinctio rem vel iure. Rerum, laborum adipisci, pariatur aliquam amet vel libero tenetur incidunt quibusdam at inventore neque asperiores porro consectetur provident modi? Aliquid a sint nisi cumque repudiandae ducimus consequatur sapiente ratione temporibus quas voluptates, alias officiis fugiat consectetur nihil in harum similique sequi ea corporis rem, nostrum ullam, consequuntur maiores! Porro beatae libero nihil. Obcaecati rem sunt quos nobis similique, aperiam ipsam libero saepe cum animi quis odit ullam magnam quidem cupiditate esse sapiente consequatur iure pariatur!</p>
+                </section>
+            </div>
 
-        <form action="#" method="POST">
-            <!-- Maybe hide labels for form on CSS - design only has placeholder text 
-                    -Best practice for accessibility purposes
-                    -->
-            <label for="userName">Name</label>
-            <input type="text" id="userName" placeholder="Name">
-        
-            <label for="emailAddress">Email Address</label>
-            <input type="text" id="emailAddress" placeholder="Email Address">
-        
-            <label for="comment">Comment</label>
-            <textarea id="comment" cols="30" rows="10">Comment</textarea>
-        
-            <button type="submit">post comment</button>
-        </form>
+            <article>
+                <h2>Comments</h2>
+                <ul>
+                    <li>
+                        <img src="./under-the-sea-assets/comment-1.jpg" alt="Photo of user commenting under Discovery section.">
+                        <div class="textComment">
+                            <p>Tuesday October 9th, 2019 by Jeremy</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In suscipit cupiditate vero soluta, ratione ut dolorum dolore nobis inventore illum aperiam unde aliquam, repellendus nemo?</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./under-the-sea-assets/comment-2.jpg" alt="Photo of user commenting under Discovery section.">
+                        <div class="textComment">
+                            <p>Wednesday October 10th, 2019 by Julia</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, pariatur commodi sed placeat deserunt nam voluptates amet! Ipsa, sapiente dolorem debitis libero voluptates labore similique.</p>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+
+            <form class="form2" action="#" method="POST">
+                <label for="userName">Name</label>
+                <input type="text" id="userName" placeholder="Name">
+            
+                <label for="emailAddress">Email Address</label>
+                <input type="text" id="emailAddress" placeholder="Email Address">
+            
+                <label for="comment">Comment</label>
+                <textarea id="comment" cols="30" rows="10">Comment</textarea>
+            
+                <button type="submit">post comment</button>
+            </form>
+        </div>
     </main>
 
     <footer>
-        <h3>Copyright © 2018 HackerYou</h3>
+        <h4 class="footer">Copyright © 2018 HackerYou</h3>
     </footer>
 </body>
 </html>
