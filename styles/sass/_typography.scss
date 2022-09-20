@@ -1,0 +1,42 @@
+@use 'variables' as *;
+
+@font-face {
+    font-family: "Barlow", sans-serif;;
+    src: url(../patrishaUgalino_project01/index.html),
+    url(../patrishaUgalino_project01/contactPage.html),
+    url(../patrishaUgalino_project01/blogPage.html);
+    
+}
+
+@font-face {
+    font-family: "Lato", sans-serif;
+    src: url(../patrishaUgalino_project01/index.html),
+    url(../patrishaUgalino_project01/contactPage.html),
+    url(../patrishaUgalino_project01/blogPage.html);;
+}
+
+h1,
+h2,
+h3,
+a {
+    font-family: $headingFont;
+    font-weight: 750;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: $bodyFont;
+    color: $quartenaryColor;
+    font-size: 20px;
+    line-height: 32px;
+    // uncomment colour when working on Blog/Contact Page - had to comment them out for now bc I cant see shit
+}
+
+li {
+    list-style: none;
+    list-style-position: inside;
+}
+
+a {
+    text-decoration: none;
+}

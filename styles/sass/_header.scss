@@ -1,0 +1,59 @@
+@use 'variables' as *;
+
+.header1 {
+    background-image: url(./../../under-the-sea-assets/header-image.jpg);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+}
+
+.header2 {
+    background-image: url(./../../under-the-sea-assets/contact-header.jpg);
+}
+
+.header3 {
+    background-image: url(./../../under-the-sea-assets/blog-header.jpg);
+}
+
+.header1,
+.header2,
+.header3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    // padding-bottom: 70px;
+}
+
+.header2,
+.header3 {
+    padding-bottom: 70px;
+}
+
+.indexHeader {
+    display: flex;
+    h1 {
+        width: 40%;
+        font-size: 138px;
+        margin: 0 auto;
+        line-height: 126px;
+        padding-top: 100px;
+    }
+    img {
+        width: 60%;
+        position: relative;
+        top: 100px;
+        left: 100px;
+    }
+}
+
+.header2,
+.header3 {
+    h1{
+        font-size: 80px;
+        line-height: 92px;
+        text-align: center;
+        padding: 30px 90px;
+    }
+}
+
+h1 {
+    color: $quartenaryColor;
+    text-transform: uppercase;
+}

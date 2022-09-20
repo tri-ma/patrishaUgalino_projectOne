@@ -1,0 +1,25 @@
+@use 'variables' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        li {
+            margin: 20px 35px;
+        }
+    }
+}
+
+nav {
+    a {
+        color: white;
+         &:visited {
+            color: white;
+        }
+    }
+}

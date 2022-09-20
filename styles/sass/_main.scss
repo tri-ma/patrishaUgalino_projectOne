@@ -1,0 +1,202 @@
+@use 'variables' as *;
+
+// INDEX STARTS
+.indexSec1,
+.indexSec3,
+.indexSec4 {
+    background-color: $primaryColor;
+    h2,
+    h3 {
+        color: $quartenaryColor;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+}
+
+.indexSec1 {
+    text-align: center;
+    padding: 200px;
+    p {
+        padding: 40px;
+        text-align: left;
+        line-height: 32px;
+    }
+}
+
+.indexSec1,
+.indexSec4 {
+    a {
+        background-color: $tertiaryColor;
+        color: $primaryColor;
+        //the properties below may be repeated on another anchor in sec2 (IF REPETITIVE THEN PLEASE KEEP DRy)
+        font-size: 20px;
+        text-align: center;
+        line-height: 29px;
+        letter-spacing: 1px;
+        padding: 15px;
+        margin-top: 15px;
+        &:visited {
+            color: $primaryColor;
+        }
+    }
+}
+
+.indexSec2,
+.indexSec5 {
+    background-color: $secondaryColor;
+}
+
+.indexSec2 {
+    display: flex;
+    flex-wrap: wrap;
+    img {
+        background-color: $tertiaryColor;
+        object-fit: cover;
+        width: 40%;
+        
+    }
+    .sec2Article1,
+    .sec2Article2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 40%;
+        // padding: 100px;
+        h2 {
+            color: $quartenaryColor;
+            font-size: 32px;
+            padding: 10px 0 10px 0;
+        }
+        p{
+            margin: 15px 0 15px 0;
+        }
+        a {
+            background-color: $primaryColor;
+            color: $quartenaryColor;
+            width: 30%;
+            padding: 10px;
+            text-align: center;
+        }
+        .sec2Button2 {
+           margin-left: 330px;
+        }
+    }
+}
+
+.sec2Article1 {
+    padding: 100px 0 100px 100px;
+}
+
+.sec2Article2 {
+    text-align: right;
+    padding: 100px 100px 100px 0;
+}
+
+.sec2Img1,
+.sec2Img2 {
+    position: relative;
+}
+
+.sec2Img1 {
+    box-shadow: 30px 30px $tertiaryColor;
+    bottom: 30px;
+}
+
+.sec2Img2 {
+    box-shadow: -30px 30px $tertiaryColor;
+    top: 30px;
+}
+
+.indexSec3 {
+    padding: 100px 0 100px 0;
+    h3 {
+        margin-left: 15px;
+        font-size: 32px;
+        line-height: 1px
+    }
+    p {
+        text-align: left;
+        margin: 0 0 45px 45px;
+    }
+    .sec3Nav {
+        background-color: $tertiaryColor;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        position: relative;
+        bottom: 20px;
+    }
+}
+
+.sec3Flex1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    .sec3Flex2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 50%;
+        .sec3Flex3 {
+            display: flex;
+            flex-direction: row;
+            i {
+                color: $primaryColor;
+                width: 50px;
+                text-align: center;
+                position: relative;
+                top: 10px;
+                left: 12.5px;
+            }
+        }
+    }
+}
+
+.indexSec4 img {
+    width: 100%;
+}
+
+.monthlyProfile {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0 100px 0;
+    img {
+        box-shadow: 30px 30px $tertiaryColor;
+    }
+    .sec4Flex {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        h2 {
+            text-align: left;
+            font-size: 42px;
+        }
+        p {
+            margin: 15px 0 15px;
+        }
+        a {
+            padding: 10px;
+            width: 25%;
+        }
+    }
+}
+
+.indexSec5 {
+    padding: 75px;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+// INDEX ENDS
+
+// CONTACT STARTS
+
+// CONTACT ENDS
+
+// BLOG STARTS
+
+// BLOG ENDS

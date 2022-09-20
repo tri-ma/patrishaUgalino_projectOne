@@ -1,0 +1,14 @@
+@use 'variables' as *;
+
+footer {
+    background-color: $tertiaryColor;
+    padding: 10px;
+    h2, 
+    h3, 
+    h4 {
+        font-family: $headingFont;
+        font-size: 20px;
+        text-align: center;
+        color: $primaryColor;
+    }
+}
