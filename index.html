@@ -6,89 +6,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Under the Sea</title>
     <link rel="stylesheet" href="styles/sass/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 <body>
-    <header>
-        <nav class="headerNav">
-            <ul>
-                <li>
-                    <a href="#">home</a>
-                </li>
-                <li>
-                    <a href="#">about</a>
-                </li>
-                <li>
-                    <a href="#">blog</a>
-                </li>
-                <li>
-                    <a href="#">contact</a>
-                </li>
-            </ul>
-        </nav>
-        <h1>under the sea</h1>
-        <img src="./under-the-sea-assets/home-box-header.png" alt="Three goldfish swimming within rocks.">
+    <header class="header1">
+        <div class="wrapper">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="#about">about</a>
+                    </li>
+                    <li>
+                        <a href="blogPage.html">blog</a>
+                    </li>
+                    <li>
+                        <a href="contactPage.html">contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="indexHeader wrapper">
+            <h1>under the sea</h1>
+            <img src="./under-the-sea-assets/home-box-header.png" alt="Three goldfish swimming within rocks.">
+        </div>
     </header>
 
     <main>
-        <section>
-            <h2>what is under the sea?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum optio laborum velit hic tempora, doloremque commodi et illum quisquam! Nisi praesentium qui quasi laboriosam harum atque quas sit ab veniam.</p>
-            <a href="">find out more</a>
+        <section class="indexSec1">
+            <div class="wrapper">
+                <h2 id="about">what is under the sea?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia fuga maiores incidunt illo, ab amet voluptas quo nostrum distinctio praesentium quisquam quam corporis a maxime eaque nesciunt hic ad fugiat at qui. Asperiores eveniet id neque consequatur deleniti eos voluptas!</p>
+                <a href="">find out more</a>
+            </div>
         </section>
 
-        <section>
-            <img src="./under-the-sea-assets/left-image.jpg" alt="Women looking at an aquarium filled with clown fish.">
-            <h2>new additions</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae labore eius modi provident rerum aliquid qui architecto aspernatur omnis nobis.</p>
-            <a href="">read more</a>
+        <section class="indexSec2">
+            <img src="./under-the-sea-assets/left-image.jpg" alt="Women looking at an aquarium filled with clown fish." class="sec2Img1">
+            <div class="sec2Article1 wrapper">
+                <h2>new additions</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae labore eius modi provident rerum aliquid qui architecto aspernatur omnis nobis.</p>
+                <a href="">read more</a>
+            </div>
 
-            <img src="./under-the-sea-assets/right-image.jpg" alt="A clown fish swimming within its aquarium.">
-            <h2>meet real nemo</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo accusantium illum nulla at blanditiis aut iusto temporibus, culpa nobis doloribus!</p>
-            <a href="">read more</a>
+            <div class="sec2Article2 wrapper">
+                <h2>meet real nemo</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo accusantium illum nulla at blanditiis aut iusto
+                    temporibus, culpa nobis doloribus!</p>
+                <a href="" class="sec2Button2">read more</a>
+            </div>
+
+            <img src="./under-the-sea-assets/right-image.jpg" alt="A clown fish swimming within its aquarium." class="sec2Img2">
         </section>
 
-        <section>
-            <ul>
-                <li>
-                    <!-- img elements will have svg icons -->
-                    <a href="#">
-                        <img src="" alt="#">
-                        <h3>locations</h3>
-                    </a>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ipsum. Dolores similique sit consequatur? Possimus molestiae quo laborum vero assumenda?</p>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="" alt="#">
-                        <h3>community</h3>
-                    </a>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ipsum. Dolores similique sit consequatur?
-                    Possimus molestiae quo laborum vero assumenda?</p>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="" alt="#">
-                        <h3>blog</h3>
-                    </a>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ipsum. Dolores similique sit consequatur?
-                    Possimus molestiae quo laborum vero assumenda?</p>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="" alt="#">
-                        <h3>get in touch</h3>
-                    </a>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ipsum. Dolores similique sit consequatur?
-                    Possimus molestiae quo laborum vero assumenda?</p>
-                </li>
-            </ul>
+        <section class="indexSec3">
+            <div class="wrapper">
+                <ul class="sec3Flex1">
+                    <li class="sec3Flex2">
+                        <!-- img elements will have svg icons -->
+                        <a href="#" class="sec3Flex3">
+                            <div class="sec3Nav">
+                                <i class="bi bi-cursor-fill"></i>
+                            </div>
+                            <h3>locations</h3>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ipsum. Dolores similique sit consequatur? Possimus molestiae quo laborum vero assumenda?</p>
+                    </li>
+
+                    <li class="sec3Flex2">
+                        <a href="#" class="sec3Flex3">
+                            <div class="sec3Nav">
+                                <i class="bi bi-people-fill"></i>
+                            </div>
+
+                            <h3>community</h3>
+                        </a>
+
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ipsum. Dolores similique sit consequatur?
+                        Possimus molestiae quo laborum vero assumenda?</p>
+                    </li>
+
+                    <li class="sec3Flex2">
+                        <a href="#" class="sec3Flex3">
+                            <div class="sec3Nav">
+                                <i class="bi bi-file-earmark-fill"></i>
+                            </div>
+                            <h3>blog</h3>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ipsum. Dolores similique sit consequatur? Possimus
+                        molestiae quo laborum vero assumenda?.</p>
+                    </li>
+
+                    <li class="sec3Flex2">
+                        <a href="#" class="sec3Flex3">
+                            <div class="sec3Nav">
+                                <i class="bi bi-telephone-fill"></i>
+                            </div>
+                            <h3>get in touch</h3>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ipsum. Dolores similique sit consequatur? Possimus
+                        molestiae quo laborum vero assumenda?</p>
+                    </li>
+                </ul>
+            </div>
         </section>
 
-        <section>
+        <section class="indexSec4">
             <img src="./under-the-sea-assets/banner.jpg" alt="Woman pointing at a whale shark accompanied by other fish within an aquarium.">
+            <div class="monthlyProfile wrapper">
+                <img src="./under-the-sea-assets/small-box.jpg" alt="School of fish swimming to the right of their aquarium">
+                <div class="sec4Flex">
+                    <h2>this month profile</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima vel, dolore ducimus nobis nostrum modi corporis placeat quas at? Sunt sapiente eius velit saepe officia accusantium quibusdam ducimus, atque dolorum ratione, corrupti aspernatur aliquam voluptates quaerat quasi porro suscipit ipsum magni repellat perspiciatis? Iusto nostrum veritatis deserunt. Reiciendis, ut minima!</p>
+                    <a href="#">find out more</a>
+                </div>
+            </div>
         </section>
-        <section></section>
+
+        <section class="indexSec5">
+            <div class="wrapper">
+                <ul>
+                    <li>
+                        <img src="./under-the-sea-assets/gallery-image-1.jpg" alt="#">
+                    </li>
+                    <li>
+                        <img src="./under-the-sea-assets/gallery-image-2.jpg" alt="#">
+                    </li>
+                    <li>
+                        <img src="./under-the-sea-assets/gallery-image-3.jpg" alt="#">
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
 
     <footer>
